@@ -415,6 +415,8 @@ class DPCode(StrEnum):
     TOTAL_POWER = "total_power"
     TOTAL_TIME = "total_time"
     TVOC = "tvoc"
+    UNLOCK_PASSWORD_KIT = "unlock_password_kit"
+    UNLOCK_PHONE_REMOTE_KIT = "unlock_phone_remote_kit"
     UPPER_TEMP = "upper_temp"
     UPPER_TEMP_F = "upper_temp_f"
     UV = "uv"  # UV sterilization

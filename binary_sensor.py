@@ -246,6 +246,11 @@ BINARY_SENSORS: dict[str, tuple[TuyaBinarySensorEntityDescription, ...]] = {
             device_class=BinarySensorDeviceClass.LOCK,
             on_value={"AQAB"},
         ),
+        TuyaBinarySensorEntityDescription(
+            key=DPCode.UNLOCK_PASSWORD_KIT,               
+            device_class=BinarySensorDeviceClass.DOOR,
+             on_value={"AAAAAQAA"},
+        ),
     ),
     # PIR Detector
     # https://developer.tuya.com/en/docs/iot/categorypir?id=Kaiuz3ss11b80
