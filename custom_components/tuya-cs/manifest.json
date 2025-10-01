@@ -1,7 +1,7 @@
 {
   "domain": "tuya-cs",
   "name": "Tuya CS",
-  "codeowners": ["@Tuya", "@zlinoliver"],
+  "codeowners": ["@carsten12"],
   "config_flow": true,
   "dependencies": ["ffmpeg"],
   "dhcp": [
