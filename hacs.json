@@ -1,0 +1,15 @@
+{
+  "name": "Tuya CS",
+  "content_in_root": false,
+  "country": [],
+  "homeassistant": "2025.9.4",
+  "hacs": "1.14.4",
+  "zip_release": false,
+  "filename": "tuya-cs",
+  "type": "integration",
+  "categories": ["sensor"],
+  "description": "Ein Clone der core Tuya Integration, die mit dem Lock funktioniert.",
+  "tags": ["sensor", "tuya"],
+  "authors": ["@cschiers12"],
+  "version": "0.0"
+}
